@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>mutation_assignment</title>
+    <style type="text/css">
+#s {
+  font-family: "Ubuntu";
+  font-size: x-large;
+}
+
+</style></head>
+  <body id="s">
+    <p style="margin-bottom: 0in; line-height: 100%"><b><span style="background: transparent">DNA
+          Sequence:</span></b></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><br>
+    </p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">tcgcgcgtttcggtgatgacggtgaaaacctctgacacatgcagctcccggagacggtcacagcttgtctgtaagc</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">ggatgccgggagcagacaagcccgtcagggcgcgtcagcgggtgttggcgggtgtcggggctggcttaactatgcg</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">gcatcagagcagattgtactgagagtgcaccatatgcggtgtgaaataccgcacagatgcgtaaggagaaaatacc</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">gcatcaggcgccattcgccattcaggctgcgcaactgttgggaagggcgatcggtgcgggcctcttcgctattacg</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">ccagctggcgaaagggggatgtgctgcaaggcgattaagttgggtaacgccagggttttcccagtcacgacgttgt</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">aaaacgacggccagtgaattcttgttctcattggtagtgaccaagaaccaaaatatgtggcaaaagacgaacatcc</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">gcctccaaccatcatcattgcagcgaaagatgaacatccaccagcaacgattatttgaagaggaataagcaaaaag</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">acagctagttttctagctgtcttttttcatgcataggaaaatgtgaaaaaaacgtagggaattatcaactatatca</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">gactctatttttcccaatacaaatactgtaaatattgtgttaatattctaaatacaaagaataaaggaggatgaaa</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">aatgaaaatgaaaatgaaattagcatcgtttggtcttgcagcaggactagcggcccaagtatttttaccttacaat</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">gcgctggcttcaacggaacacgttacatggaaccaacaatttcaaacccctcaattcatctccggtgatctgctga</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">aagtgaatggcacatccccagaagaactcgtctatcaatatgttgaaaaaaacgaaaacaagtttaaatttcatga</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">aaacgctaaggatactctacaattgaaagaaaagaaaaatgataaccttggttttacgtttatgcgcttccaacaa</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">acgtataaagggattcctgtgtttggagcagtagtaacgtcgcacgtgaaagatggcacgctgacggcgctatcag</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">ggacactgattccgaatttggacacgaaaggatccttaaaaagcgggaagaaattgagtgagaaacaagcgcgtga</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">cattgctgaaaaagatttagtggcaaatgtaacaaaggaagtaccggaatatgaacagggaaaagacaccgagttt</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">gttgtttatgtcaatggggacgaggcttctttagcgtacgttgtcaatttaaactttttaactcctgaaccaggaa</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">actggctgtatatcattgatgccgtagacggaaaaattttaaataaatttaaccaacttgacgccgcaaaaccagg</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">tgatgtgaagtcgataacaggaacatcaactgtcggagtgggaagaggagtacttggtgatcaaaaaaatattaat</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">acaacctactctacgtactactatttacaagataatacgcgtggaaatgggattttcacgtatgatgcgaaatacc</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">gtacgacattgccgggaagcttatgggcagatgcagataaccaattttttgcgagctatgatgctccagcggttga</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">tgctcattattacgctggtgtgacatatgactactataaaaatgttcataaccgtctcagttacgacggaaataat</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">gcagctattagatcatccgttcattatagccaaggctataataacgcattttggaacggttcgcaaatggtgtatg</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">gcgatggtgatggtcaaacatttattccactttctggtggtattgatgtggtcgcacatgagttaacgcatgcggt</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">aaccgattatacagccggactcatttatcaaaacgaatctggtgcaattaatgaggcaatgtctgatatttttgga</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">acgttagtcaaattttacgctaacaaaaatccagattgggaaattggagaggatgtgtatacacctggtatttcag</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">gggattcgctccgttcgatgtccgatccggcaaagtatggtgatccagatcactattcaaagcgctatacaggcac</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">gcaagataatggcggggttcatatcaatagcggaattatcaacaaagccgcttatttgattagccaaggcggtacg</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">cattacggtgtgagtgttgtcggaatcggacgcgataaattggggaaaattttctatcgtgcattaacgcaatatt</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">taacaccaacgtccaactttagccaacttcgtgctgccgctgttcaatcagccactgacttgtacggttcgacaag</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">ccaggaagtcgcttctgtgaagcaggcctttgatgcggtaggggtgaaacaccaccatcaccaccattaaagtggtatct</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">catcagtgggggattttttcctccactgatgttttgttttctagagtcgacctgcaggcatgcaagcttggcgtaa</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">tcatggtcatagctgtttcctgtgtgaaattgttatccgctcacaattccacacaacatacgagccggaagcataa</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">agtgtaaagcctggggtgcctaatgagtgagctaactcacattaattgcgttgcgctcactgcccgctttccagtc</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">gggaaacctgtcgtgccagctgcattaatgaatcggccaacgcgcggggagaggcggtttgcgtattgggcgctct</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">tccgcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcgg</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">taatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaa</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">ccgtaaaaaggccgcgttgctggcgtttttccataggctccgcccccctgacgagcatcacaaaaatcgacgctca</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">agtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctc</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">ctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagccc</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">gaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcag</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">ccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacgg</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">ctacactagaaggacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctct</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">tgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaag</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">gatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggatttt</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">ggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagt</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">atatatgagtaaacttggtctgacagttaccaatgcttaatcagtgaggcacctatctcagcgatctgtctatttc</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">gttcatccatagttgcctgactccccgtcgtgtagataactacgatacgggagggcttaccatctggccccagtgc</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">tgcaatgataccgcgagacccacgctcaccggctccagatttatcagcaataaaccagccagccggaagggccgag</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">cgcagaagtggtcctgcaactttatccgcctccatccagtctattaattgttgccgggaagctagagtaagtagtt</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">cgccagttaatagtttgcgcaacgttgttgccattgctacaggcatcgtggtgtcacgctcgtcgtttggtatggc</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">ttcattcagctccggttcccaacgatcaaggcgagttacatgatcccccatgttgtgcaaaaaagcggttagctcc</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">ttcggtcctccgatcgttgtcagaagtaagttggccgcagtgttatcactcatggttatggcagcactgcataatt</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">ctcttactgtcatgccatccgtaagatgcttttctgtgactggtgagtactcaaccaagtcattctgagaatagtg</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">tatgcggcgaccgagttgctcttgcccggcgtcaatacgggataataccgcgccacatagcagaactttaaaagtg</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">ctcatcattggaaaacgttcttcggggcgaaaactctcaaggatcttaccgctgttgagatccagttcgatgtaac</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">ccactcgtgcacccaactgatcttcagcatcttttactttcaccagcgtttctgggtgagcaaaaacaggaaggca</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">aaatgccgcaaaaaagggaataagggcgacacggaaatgttgaatactcatactcttcctttttcaatattattga</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">agcatttatcagggttattgtctcatgagcggatacatatttgaatgtatttagaaaaataaacaaataggggttc</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">cgcgcacatttccccgaaaagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaatag</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><span style="background: transparent">gcgtatcacgaggccctttcgtc</span></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><br>
+    </p>
+    <p style="margin-bottom: 0in; line-height: 100%"><br>
+    </p>
+    <p style="margin-bottom: 0in; line-height: 100%"><font face="Arial, sans-serif"><font
+          style="font-size: 12pt" size="3"><b><span style="background: transparent">Assignments:</span></b></font></font></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><font face="Arial, sans-serif"><font
+          style="font-size: 12pt" size="3"><span style="background: transparent"><b>1</b>.
+            Post the possible translated protein sequence (First amino acid
+            of expressed protein is usually Methionine) </span></font></font>
+    </p>
+    <p style="margin-bottom: 0in; line-height: 100%"><font face="Arial, sans-serif"><font
+          style="font-size: 12pt" size="3"><span style="background: transparent"><b>2</b>.
+            Pick the protein sequence starting with “MKMKMKLASFGLAA”, locate
+            the sequence of “YSQGYNNAFWNGSQ<b><span style="background: #ffff99">M</span></b>VYGDG”
+            and design primers (forward primer and reverse primer)
+            to mutate the highlighted Met to Ala.</span></font></font></p>
+    <p style="margin-bottom: 0in; line-height: 100%"><font face="Arial, sans-serif"><font
+          style="font-size: 12pt" size="3"><b><span style="background: transparent">Useful
+links
+              and information:</span></b></font></font></p>
+    <p style="margin-bottom: 0in; font-weight: normal; line-height: 100%"><font
+        face="Arial, sans-serif"><font style="font-size: 12pt" size="3"><span style="background: transparent">From
+DNA
+            to Protein(translation): </span></font></font><font face="ARial, sans-serif"><font
+          style="font-size: 10pt" size="2"><span style="background: #f5a2a3"><a
+              href="http://web.expasy.org/translate/"><font face="Arial, sans-serif"><font
+                  style="font-size: 12pt" size="3"><span style="background: transparent">http://web.expasy.org/translate/</span></font></font></a></span></font></font><br>
+      <font face="Arial, sans-serif"><font style="font-size: 12pt" size="3"><span
+            style="background: transparent"></span></font></font></p>
+    <p style="margin-bottom: 0in; font-weight: normal; line-height: 100%"><font
+        face="Arial, sans-serif"><font style="font-size: 12pt" size="3"><span style="background: transparent">What
+is
+            open reading frame? O</span><span style="background: transparent">pen
+reading
+            frame (ORF) is the part of a reading frame that has the
+            potential to be translated. </span></font></font>
+    </p>
+    <p style="margin-bottom: 0in; font-weight: normal; line-height: 100%">
+      <font face="Arial, sans-serif"><font style="font-size: 12pt" size="3"><span
+            style="background: transparent">DNA
+            Codon table: </span></font></font><a href="https://en.wikipedia.org/wiki/DNA_codon_table"><font
+          face="Arial, sans-serif"><font style="font-size: 12pt" size="3"><span
+              style="background: transparent">https://en.wikipedia.org/wiki/DNA_codon_table</span></font></font></a></p>
+    <p style="margin-bottom: 0in; font-weight: normal; line-height: 100%"><font
+        face="Arial, sans-serif"><font style="font-size: 12pt" size="3"><span style="background: transparent"><font
+              face="Arial, sans-serif"><font style="font-size: 12pt" size="3"><span
+                  style="background: transparent">M</span><span style="background: transparent">utagenesis
+                  and </span></font></font>Primer designs</span><span style="background: transparent">:</span></font></font></p>
+    <p style="margin-bottom: 0in; font-weight: normal; line-height: 100%"><font
+        face="Arial, sans-serif"><font style="font-size: 12pt" size="3"><span style="background: transparent"></span></font></font><a
+        href="http://www.idtdna.com/pages/decoded/decoded-articles/core-concepts/decoded/2012/01/10/methods-for-site-directed-mutagenesis"><font
+          face="Arial, sans-serif"><font style="font-size: 12pt" size="3"><span
+              style="background: transparent">http://www.idtdna.com/pages/decoded/decoded-articles/core-concepts/decoded/2012/01/10/methods-for-site-directed-mutagenesis</span></font></font></a></p>
+    <p style="margin-bottom: 0in; font-weight: normal; line-height: 100%">
+      <a href="https://www.addgene.org/protocols/primer-design/"><font face="Arial, sans-serif"><font
+            style="font-size: 12pt" size="3"><span style="background: transparent">https://www.addgene.org/protocols/primer-design/</span></font></font></a></p>
+    <p style="margin-bottom: 0in; font-weight: normal; line-height: 100%">
+      <a href="https://www.neb.com/applications/cloning-and-synthetic-biology/site-directed-mutagenesis"><font
+          face="Arial, sans-serif"><font style="font-size: 12pt" size="3"><span
+              style="background: transparent">https://www.neb.com/applications/cloning-and-synthetic-biology/site-directed-mutagenesis</span></font></font></a></p>
+    <p style="margin-bottom: 0in; font-weight: normal; line-height: 100%">
+      <br>
+    </p>
+  </body>
+</html>
